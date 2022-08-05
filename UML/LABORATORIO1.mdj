@@ -1,0 +1,426 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF+wH5odKI4G2I=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAF+wH5ocaI2U8o="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF+wH5odqI570Q=",
+									"_parent": {
+										"$ref": "AAAAAAF+wH5odKI4G2I="
+									},
+									"model": {
+										"$ref": "AAAAAAF+wH5ocaI2U8o="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF+wH5odqI6jn8=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5odqI570Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF+wH5od6I7+yg=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5odqI570Q="
+											},
+											"font": "Arial;13;1",
+											"left": 205,
+											"top": 359,
+											"width": 343,
+											"height": 13,
+											"text": "Climate"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF+wH5od6I8vcQ=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5odqI570Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF+wH5od6I9HxE=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5odqI570Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 200,
+									"top": 352,
+									"width": 353,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF+wH5odqI6jn8="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF+wH5od6I7+yg="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF+wH5od6I8vcQ="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF+wH5od6I9HxE="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF+wH5od6I+UUM=",
+									"_parent": {
+										"$ref": "AAAAAAF+wH5odKI4G2I="
+									},
+									"model": {
+										"$ref": "AAAAAAF+wH5ocaI2U8o="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF+wH66/aJkyjw=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5od6I+UUM="
+											},
+											"model": {
+												"$ref": "AAAAAAF+wH6666JhA4g="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 382,
+											"width": 343,
+											"height": 13,
+											"text": "-float []rainPerMonth",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF+wH8KtqJs3Aw=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5od6I+UUM="
+											},
+											"model": {
+												"$ref": "AAAAAAF+wH8KsaJp2d4="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 397,
+											"width": 343,
+											"height": 13,
+											"text": "-float []rainPerSemester",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF+wH9XHKJ1yaE=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5od6I+UUM="
+											},
+											"model": {
+												"$ref": "AAAAAAF+wH9XD6Jys0Y="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 412,
+											"width": 343,
+											"height": 13,
+											"text": "-float []rainfallAveragePerSemester",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF+wIAKjaJ+Hwc=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5od6I+UUM="
+											},
+											"model": {
+												"$ref": "AAAAAAF+wIAKiKJ7WFg="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 427,
+											"width": 343,
+											"height": 13,
+											"text": "-float[] gratestRainfallPerSemester",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF+wIIz26KPVHc=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5od6I+UUM="
+											},
+											"model": {
+												"$ref": "AAAAAAF+wIIzzKKM4eA="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 442,
+											"width": 343,
+											"height": 13,
+											"text": "-int historicalRainfall",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 200,
+									"top": 377,
+									"width": 353,
+									"height": 83
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF+wH5od6I/zMs=",
+									"_parent": {
+										"$ref": "AAAAAAF+wH5odKI4G2I="
+									},
+									"model": {
+										"$ref": "AAAAAAF+wH5ocaI2U8o="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF+wIQ4W6KrKu8=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5od6I/zMs="
+											},
+											"model": {
+												"$ref": "AAAAAAF+wIQ4VaKoRrw="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 465,
+											"width": 343,
+											"height": 13,
+											"text": "+void setRainPerMonth(float[])",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF+wINEOKKf07I=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5od6I/zMs="
+											},
+											"model": {
+												"$ref": "AAAAAAF+wINEM6KcLA4="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 480,
+											"width": 343,
+											"height": 13,
+											"text": "+void rainfallPerMonthCalc()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF+wILLZKKYkH8=",
+											"_parent": {
+												"$ref": "AAAAAAF+wH5od6I/zMs="
+											},
+											"model": {
+												"$ref": "AAAAAAF+wILLWqKV26g="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 495,
+											"width": 343,
+											"height": 13,
+											"text": "+void avergeRainfallCalc()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 200,
+									"top": 460,
+									"width": 353,
+									"height": 53
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF+wH5oeKJADoI=",
+									"_parent": {
+										"$ref": "AAAAAAF+wH5odKI4G2I="
+									},
+									"model": {
+										"$ref": "AAAAAAF+wH5ocaI2U8o="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF+wH5oeKJBkRU=",
+									"_parent": {
+										"$ref": "AAAAAAF+wH5odKI4G2I="
+									},
+									"model": {
+										"$ref": "AAAAAAF+wH5ocaI2U8o="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 200,
+							"top": 352,
+							"width": 353,
+							"height": 305,
+							"nameCompartment": {
+								"$ref": "AAAAAAF+wH5odqI570Q="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF+wH5od6I+UUM="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF+wH5od6I/zMs="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF+wH5oeKJADoI="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF+wH5oeKJBkRU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF+wH5ocaI2U8o=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Climate",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF+wH6666JhA4g=",
+							"_parent": {
+								"$ref": "AAAAAAF+wH5ocaI2U8o="
+							},
+							"name": "float []rainPerMonth",
+							"visibility": "private"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF+wH8KsaJp2d4=",
+							"_parent": {
+								"$ref": "AAAAAAF+wH5ocaI2U8o="
+							},
+							"name": "float []rainPerSemester",
+							"visibility": "private"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF+wH9XD6Jys0Y=",
+							"_parent": {
+								"$ref": "AAAAAAF+wH5ocaI2U8o="
+							},
+							"name": "float []rainfallAveragePerSemester",
+							"visibility": "private"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF+wIAKiKJ7WFg=",
+							"_parent": {
+								"$ref": "AAAAAAF+wH5ocaI2U8o="
+							},
+							"name": "float[] gratestRainfallPerSemester",
+							"visibility": "private"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF+wIIzzKKM4eA=",
+							"_parent": {
+								"$ref": "AAAAAAF+wH5ocaI2U8o="
+							},
+							"name": "int historicalRainfall",
+							"visibility": "private"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF+wIQ4VaKoRrw=",
+							"_parent": {
+								"$ref": "AAAAAAF+wH5ocaI2U8o="
+							},
+							"name": "void setRainPerMonth",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF+wISz9aKxhjA=",
+									"_parent": {
+										"$ref": "AAAAAAF+wIQ4VaKoRrw="
+									},
+									"name": "float[]",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF+wINEM6KcLA4=",
+							"_parent": {
+								"$ref": "AAAAAAF+wH5ocaI2U8o="
+							},
+							"name": "void rainfallPerMonthCalc"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF+wILLWqKV26g=",
+							"_parent": {
+								"$ref": "AAAAAAF+wH5ocaI2U8o="
+							},
+							"name": "void avergeRainfallCalc"
+						}
+					]
+				}
+			]
+		}
+	]
+}
